@@ -1,6 +1,7 @@
 {
-  "name": "angular",
-  "version": "0.0.0",
+  "name": "tasktraker",
+  "version": "1.0.0",
+  "description": "SPA fatta con angular 15 per Task Tracking con libreria Json Server e CRUD operations.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
