@@ -1,0 +1,16 @@
+<!-- Con ngSubmit non abbiamo bisogno di fare e.preventDefault() -->
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Task</label>
+        <input type="text" name="text" id="text" [(ngModel)]="text" placeholder="Aggiungi Task">
+    </div>
+    <div class="form-control">
+        <label for="day">Giorno e Ora</label>
+        <input type="text" name="day" id="day" [(ngModel)]="day" placeholder="Aggiungi giorno e tempo">
+    </div>
+    <div class="form-control form-control-check">
+        <label for="reminder">Reminder</label>
+        <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder">
+    </div>
+    <input type="submit" value="Salva Task" class="btn btn-block">
+</form>
